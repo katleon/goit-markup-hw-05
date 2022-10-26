@@ -225,8 +225,17 @@ body {
     right: 8px;
     width: 30px;
     height: 30px;
+    background-color: var(--additional-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+}
+.close-icon {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 18px;
+    height: 18px;
+    background-color: var(--additional-color);
 }
 .is-hidden {
     opacity: 0;
